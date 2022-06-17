@@ -1,0 +1,134 @@
+
+.navbar {
+    position: static;
+    z-index: 34242;;
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 3px;
+  text-decoration: none;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.cuerpo{
+   background-color:  #B1E3F0;
+}
+#filtros_especial{
+    border-radius: 15px;
+}
+
+
+#filtros_precio{
+    border-radius: 15px;
+}
+
+.content{
+
+    position: relative;
+    z-index: 0;
+
+}
+.card{
+
+    border-radius: 15px;
+}
+.profile {
+    display: flex;
+    font-size: 2em;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.muestra {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barra-acciones {
+   z-index: 1;
+    display: flex;
+    margin: 2rem;
+    width: max-content;
+    position: fixed;
+}
+
+.list-group-item-action {
+    user-select: none;
+}
+
+.verperfil{
+    border-color: black;
+    background-color: #FFC107;
+    color: #0B0D0C;
+       padding: 5px 10px;
+       text-align: center;
+       font-size: 16px;
+       letter-spacing: 1px;
+       cursor: pointer;
+       border-radius: 30px;
+       border: 2px solid black;
+}
+
+.grid-container {
+    margin-top: 60px;
+    width: fit-content;
+    margin-left: 200px ;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 70px;
+    row-gap: 30px;
+}
+
+.hide {
+    display: none
+}
+
+.show {
+    display: block;
+    visibility: visible;
+}
+
+/*.CategoriasYellow.active{
+    z-index: 2;
+    color: #212529;
+    background-color: #fdcc0d;
+    border-color: #0d6efd;
+}*/
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #fdb60d;
+    border-color: #212529;
+}
+
+.logo{
+    width: 50px;
+
+}
+
+.Titulo{ display: flex;
+  align-items: center;
+  flex-direction: row;
+ 
+}
+
+.bienvenida{
+    display: flex;
+    align-items: center;
+}
+
+.miperfil:hover{
+    color:#FFC107;
+}
